@@ -12,7 +12,7 @@ You only need at most three objects per service unit. If you think it's unavoida
 #### How do you organize the chaos of enterprise level code?
 
 - **Dependency inversion** - Knowing what code goes into which object is the art behind acheiving the streamlined pallindromic flow of an efficient call-stack.
-- **Robust central libraries** - Developer-friendly abstractions in the **object 2** space of capabilities. Bind would-be tramp data where appropriate and shrink your "RAM footprint" as a developer.
+- **Robust central libraries** - Developer-friendly abstractions in the **object 2** space of capabilities. Use a rich list of internal service units to bind would-be tramp data where appropriate and shrink your "RAM footprint" as a developer.
 - **Polymorphic magic** - When the dependency chain is indeterminant at compile time, callable abstraction and conditionals are absolutely the grease in the wheels of your enterprise system. It is important however to never pre-optimize and use polymorphism out of the gate. This leads to the next point but the art of **object 2** can make refactoring or optimizing less of a headache.
 - **Write extensible code** - From day 0, one of the top goals of an experienced developer should be to write their code in a way that easily allows for extension and, as much as possible for deprecation and sun-setting.
 
