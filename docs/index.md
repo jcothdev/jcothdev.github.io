@@ -1,5 +1,5 @@
 # Jonathan Cothran
-## Software development and Data engineering
+## Software Development and Data Engineering
 
 Welcome to my software development information page. I am an integrated data platforms and web systems designer with experience writing resiliant APIs in various target industries.
 
