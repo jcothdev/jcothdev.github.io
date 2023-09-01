@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Software Manifesto
 ---
-
-# Software Manifesto
 
 ### Software Development Philosophy and Dialectic
 
