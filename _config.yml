@@ -15,7 +15,8 @@ minima:
 
 Minima: custom header links
 header_pages:
- - docs/info.md
+ - docs/
+ - _layouts/
 
 include:
   - _layouts/home.html
