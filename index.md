@@ -10,7 +10,7 @@ Welcome to my software development information page. I am an integrated data pla
 
 I possess an innate understanding of data analysis, design patterns and process efficiencies. I enjoy new challenges and analytical paths to provide comprehensive and reliable software systems at any scale.
 
-# 
+<hr style="height:1px;">
 
 **Links** - [Resume](/Jonathan_Cothran_Resume_23.pdf)
 
