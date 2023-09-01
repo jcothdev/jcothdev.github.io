@@ -11,10 +11,14 @@ You only need at most three objects per service unit.
 
 #### How do you organize the chaos of enterprise level code?
 
-- **Dependency inversion** - This is the art inherent in the code of **object 2**. The secret lies in understanding that OOP semantics of "superclasses" and "subclasses" are misnomers. Subclasses are algebraically *supersets* and superclasses are algebraically *subsets*, in other words subclasses are the larger circles in the Venn-diagram of your code and a superclass that in OOP can define a subclass is actually a smaller circle that is usually totally nested inside the "subclass" circle. Hence the "inversion" of dependency inversion. This heuristic is also useful to keep in mind when scaling up implicitly-typed languages like Golang
+- **Dependency inversion** - Knowing what code goes into which object is the art behind acheiving a streamlined pallindromic flow of an efficient call-stack.
 - **Robust central libraries** - Developer-friendly abstractions in the **object 2** space of capabilities. Bind would-be tramp data where appropriate and shrink your "RAM footprint" as a developer.
 - **Polymorphic magic** - When the dependency chain is indeterminant at compile time, callable abstraction and conditionals are absolutely the grease in the wheels of your enterprise system. It is important however to never pre-optimize and use polymorphism out of the gate. This leads to the next point but the art of **object 2** can make refactoring or optimizing less of a headache.
 - **Write extensible code** - From day 0, one of the top goals of an experienced developer should be to write their code in a way that easily allows for extension and, as much as possible for deprecation and sun-setting.
+
+#### What is your take on Object Oriented Programming (OOP)?
+
+The secret to understanding OOP lies in the semantics of "superclasses" and "subclasses". Namely, they are misnomers. Subclasses are algebraically *supersets* and superclasses are algebraically *subsets*. In the Venn-diagram of the set of data a given class can handle, *sub*classes are the *larger* circles, and *super*class are actually the *smaller* Venn-diagram circle, and usually totally nested inside the "subclass" circle. So the better mental picture is that OOP classes are pyramids built pointy side down. While I don't usually care for semantic arguments this one is too obviously misleading to ignore. The concept of inheritance and encapulation in traditional OOP languages is a red herring. Heuristically, scalling an implicitly typed language like Golang would be prefereble to implementing a cob web of polymorphic convolution in Java. I don't say this as a slight to explicit typing, only when coupled with OOP is it dangerous, to say the least.
 
 #### How do you avoid using code as configuration space?
 
