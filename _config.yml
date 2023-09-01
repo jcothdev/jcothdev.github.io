@@ -13,9 +13,9 @@ github_username: jcothdev
 minima:
 #   date_format: "%Y-%m-%d"
 
-# #Minima: custom header links
-# #header_pages:
-# #  - docs/info.md
+Minima: custom header links
+header_pages:
+ - docs/info.md
 
 include:
   - _layouts/home.html
