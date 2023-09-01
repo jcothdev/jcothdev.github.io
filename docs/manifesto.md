@@ -44,7 +44,7 @@ There has been a surge in it's popularity as the most "agile" language to bootst
 
 1. `$ rm -rf ./../my_cache/`
 
-2. Naming objects just like file system schemes, but recursively
+2. Namespace like a file system, but recursively
    - `project.project_module.project_module_class.project_module_class_operation`
    - tokens in a method from inheritance start point `class_token_a` or with specification as `project_class_token_a`
    - tokens in a function are modular nomers `module_token_a` or with specification as `project_module_token_a`
