@@ -12,9 +12,6 @@ linkedin_username: jonathan-cothran-5bb514277
 github_username: jcothdev
 
 minima:
-# Minima: custom header links
-    header_pages:
-        - docs/manifesto.md
 
 include:
     - docs/
