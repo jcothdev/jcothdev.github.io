@@ -17,7 +17,8 @@ minima:
 # #header_pages:
 # #  - docs/info.md
 
-# # include:
+include:
+  - _layout/page.html
 
 # exclude: 
 #     - .gitignore
