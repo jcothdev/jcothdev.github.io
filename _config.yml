@@ -4,7 +4,9 @@ author: "Jonathan Cothran"
 
 theme: minima
 
-base_url: /
+domain: jothdev.github.io  
+url: https://jcothdev.github.io
+baseurl: / 
 
 # Minima social links
 linkedin_username: jonathan-cothran-5bb514277
