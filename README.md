@@ -1,1 +1,1 @@
-# This is a test of the README file
+## Welcome to behind the scenes of info.coth.dev
