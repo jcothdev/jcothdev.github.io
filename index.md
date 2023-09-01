@@ -1,6 +1,6 @@
 ---
 layout: home
-title: info
+title: Info
 ---
 
 # Jonathan Cothran - Software Development and Data Engineering
