@@ -14,8 +14,8 @@ github_username: jcothdev
 
 minima:
 # Minima: custom header links
-# header_pages:
-#  - docs/manifesto.md
+    header_pages:
+        - docs/manifesto.md
 
 include:
     - docs/
