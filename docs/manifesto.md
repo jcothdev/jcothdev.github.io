@@ -1,6 +1,6 @@
 # Software Manifesto
 
-### Software Development Philosophy Dialectic
+### Software Development Philosophy and Dialectic
 
 #### What is your main guiding principle for service oriented code development?
 
@@ -9,10 +9,6 @@ You only need at most three objects per service unit.
 2. **Central Shared Resource Instance**: The main connections for **object 3** are established here using configured connection details. Facilities for client normalization are also implemented here.
 3. **Backend/Query Connector**: Uses functions from **object 2**, to pass request from 1 to query a read connection, or parse into a write connection. The appropriate response is wrapped from code in **object 2**, and returned from the endpoint in **object 1**.
 
-#### How do you avoid using code as configuration space?
-
-Easy management of defaults and constants can be achieved by creating a yaml (or similar) resource file in a core directory of the service code. At the initialization of the service the config file is read and the constants can be programmatically tokenized and used where needed.
-
 #### How do you organize the chaos of enterprise level code?
 
 Simplifing service code using:
@@ -20,6 +16,10 @@ Simplifing service code using:
 - **robust central libraries** - Developer-friendly abstractions in the **object 2** space of capabilities. Bind would-be tramp data where appropriate and shrink your "RAM footprint" as a developer.
 - **polymorphic magic** - When the dependency chain is indeterminant at compile time, callable abstraction and conditionals are absolutely the grease in the wheels of your enterprise system. It is important however to never pre-optimize an use polymorphism out of the gate. This leads to the next point but the art of **object 2** can make refactoring to optimize less of a headache.
 - **write extensible code** - From day 0, one of the top goals of an experienced developer should be to write their code in a way that easily allows for extension and, as much as possible for deprecation and sun-setting.
+
+#### How do you avoid using code as configuration space?
+
+Easy management of defaults and constants can be achieved by creating a yaml (or similar) resource file in a core directory of the service code. At the initialization of the service the config file is read and the constants can be programmatically tokenized and used where needed.
 
 #### How and when do you interface with file systems?
 
