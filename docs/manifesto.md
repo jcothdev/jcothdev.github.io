@@ -30,7 +30,7 @@ Easy management of defaults and constants can be achieved by creating a yaml (or
 
 #### How and when do you interface with file systems?
 
-In general, for live services the answer should be *never*, with certain exceptions for ETL (Extract Transform Load) runs. If it is unavoidable to need file system calls, wrap their use in a well-defined and tightly managed but general-use **object 2** style file system library. This should be a single-source plugin for anything running on (preferably) UNIX, and others for other OSs. File systems are chaotic and unpredictable so make sure to pepper this library with plenty of error handling and prepare for any and all worst-case scenarios on the hard drive.
+In general, for live services the answer should be *never*, with certain exceptions for ETL (Extract Transform Load) runs. If it is unavoidable to use file system calls, wrap their use in a well-defined and tightly managed but general-use **object 2** style file system library. This should be a single-source plugin for anything running on (preferably) UNIX, and others for other OSs. File systems are chaotic and unpredictable so make sure to pepper this library with plenty of error handling and prepare for any and all worst-case scenarios on the hard drive.
 
 Outside of the limited ETLs that need file systems, consider alternatives like Mongo or SQL for long-term data stores. In-memory cache and/or messaging queues for short-term data stores.
 
