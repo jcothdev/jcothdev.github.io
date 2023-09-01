@@ -18,6 +18,7 @@ minima:
 #  - docs/manifesto.md
 
 include:
+    - /
     - docs/
     - _layouts/
 
