@@ -15,11 +15,11 @@ minima:
 
 Minima: custom header links
 header_pages:
- - docs/
- - _layouts/
+ - docs/manifesto.md
 
 include:
-  - _layouts/home.html
+ - docs/
+ - _layouts/
 
 # exclude: 
 #     - .gitignore
