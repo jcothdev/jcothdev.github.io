@@ -38,7 +38,7 @@ Outside of the limited ETLs that need file systems, consider alternatives like M
 
 Python is a broadly purposed programming language with rich support in a plethora of paradigms. Most famously, it is the language of choice for data science, machine learning and other related analytical projects. There has been a surge in it's popularity as the most "agile" language to bootstrap just about any burgeoning platform recently. But I genuinely believe this is going to come at a cost in the near future. Service software at considerable scale needs to be implemented in a statically-typed and compiled language, in much the same way that a large enough office building needs a statically numbered and riveted room-numbering scheme. As the scale of a python project grows, the abstraction of the stack grows at a pace that exceeds it's time and space complexity. This means countless hours spent reading and re-reading docs in order to accomplish simple changes because the blueprint of a typing system is not there. My recommendation is always to keep .py files under ~250 lines long and less than 10% of enterprise code base.
 
-#### How do you solve the two hard problems in Computer Science?
+#### How do you solve the two hard problems in computer science?
 
 1. `$ rm -rf ./../my_cache/`
 
