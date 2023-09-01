@@ -11,7 +11,6 @@ You only need at most three objects per service unit.
 
 #### How do you organize the chaos of enterprise level code?
 
-Simplifing service code using:
 - **dependency inversion** - This is the art inherent in the code of **object 2**. The secret lies in understanding that the OOP semantics of "superclasses" and "subclasses" are misnomers. Subclasses are algebraically *supersets* and superclasses are algebraically *subsets*, in other words subclasses are the larger circles in the Venn-diagram of your code and a superclass that in OOP can define a subclass is actually a smaller circle that is usually totally nested inside the "subclass" circle. Hence the "inversion" of dependency inversion. This mental heuristic is also useful to keep in mind when scaling up implicitly-typed languages like Golang
 - **robust central libraries** - Developer-friendly abstractions in the **object 2** space of capabilities. Bind would-be tramp data where appropriate and shrink your "RAM footprint" as a developer.
 - **polymorphic magic** - When the dependency chain is indeterminant at compile time, callable abstraction and conditionals are absolutely the grease in the wheels of your enterprise system. It is important however to never pre-optimize an use polymorphism out of the gate. This leads to the next point but the art of **object 2** can make refactoring to optimize less of a headache.
