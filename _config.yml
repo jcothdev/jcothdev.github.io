@@ -4,7 +4,7 @@ author: "Jonathan Cothran"
 
 theme: minima
 
-base_url: /
+base_url: /docs
 
 # Minima social links
 linkedin_username: jonathan-cothran-5bb514277
@@ -21,8 +21,7 @@ minima:
 #  - _pages/about.md
 #  - _pages/archive.md
 
-include:
-   - _pages
+# include:
 
 exclude: 
     - .gitignore
