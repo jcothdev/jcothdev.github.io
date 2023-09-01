@@ -7,7 +7,7 @@
 You only need at most three objects per service unit.
 1. **Endpoint Handler and Request Normalizer**: At the start of runtime the service opens **object 1** as a live listener to user/client requests. The service-span listener code should be implemented in **object 2**, so **object 1** should initialize these parameters at startup. Upon client interaction the request details are null-checked, and type normalization, ie. many-to-one or one-to-many cases are handled.
 2. **Central Shared Resource Instance**: The main connections for **object 3** are established here using configured connection details. Facilities for client normalization are also implemented here.
-3. **Backend/Query Connector**: Use the function space of **object 2** to pass request from 1 to query a read connection, or parse into a write connection. The appropriate response is wrapped from code in **object 2**, and returned from the endpoint in **object 1**.
+3. **Backend/Query Connector**: Use the function space of **object 2** to pass request from **object 1** to query a read connection, or parse into a write connection. The appropriate response is wrapped from code in **object 2**, and returned from the endpoint in **object 1**.
 
 #### How do you organize the chaos of enterprise level code?
 
