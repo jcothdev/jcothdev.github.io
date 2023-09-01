@@ -34,4 +34,3 @@ Python is a broadly purposed programming language with rich support in a plethor
 
 #### Contact
 jonathan@coth.dev
-![image](https://github.com/jcothdev/jcothdev.github.io/assets/140335853/d036bbf0-951d-41ab-a0c1-84b6a14ed9ac)
