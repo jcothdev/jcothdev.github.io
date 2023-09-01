@@ -12,16 +12,14 @@ baseurl: /
 linkedin_username: jonathan-cothran-5bb514277
 github_username: jcothdev
 
-# minima:
-# #   date_format: "%Y-%m-%d"
-
+minima:
 # Minima: custom header links
 # header_pages:
 #  - docs/manifesto.md
 
-# include:
-#  - docs/
-#  - _layouts/
+include:
+    - docs/
+    - _layouts/
 
 exclude: 
     - .gitignore
