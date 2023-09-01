@@ -12,9 +12,6 @@ I possess an innate understanding of data analysis, design patterns and process 
 
 #
 
-#### Links
+*Links* - [Resume](/Jonathan_Cothran_Resume_23.pdf)
 
-[Resume](/Jonathan_Cothran_Resume_23.pdf)
-
-#### Contact
-jonathan@coth.dev
+*Contact* - jonathan@coth.dev
