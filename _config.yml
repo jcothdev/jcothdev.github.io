@@ -18,7 +18,7 @@ minima:
 # #  - docs/info.md
 
 include:
-  - _layout/page.html
+  - _layout/home.html
 
 # exclude: 
 #     - .gitignore
