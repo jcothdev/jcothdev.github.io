@@ -19,26 +19,9 @@ You only need at most three objects per service unit. If you think it's unavoida
 - **Polymorphic magic** - When the dependency chain is indeterminant at compile time, callable abstraction and conditionals are absolutely the grease in the wheels of your enterprise system. It is important however to never pre-optimize and use polymorphism out of the gate. This leads to the next point, but a well factored base in **object 2** can make refactoring or optimizing less of a headache.
 - **Write extensible code** - From day 0, one of the top goals of an experienced developer should be to write their code in a way that easily allows for extension and, as much as possible for deprecation and sun-setting.
 
-#### What is your take on Object Oriented Programming (OOP)?
-
-The secret to understanding OOP lies in the semantics of "superclasses" and "subclasses". Namely, they are misnomers. Subclasses are algebraically *supersets* and superclasses are algebraically *subsets*. In the Venn-diagram of the set of data a given class can handle, *sub*classes are the actually *larger* circles, and *super*class are *smaller* circles, usually totally nested inside the "subclass" it supposedly "encapsulates". So the better mental picture is that OOP classes are pyramids built pointy side down. While I don't usually care for semantic arguments this case in OOP is too obviously misleading to ignore. The concepts of inheritance and encapsulation in traditional OOP languages are red herrings. Heuristically, scaling an implicitly typed language like Golang would be preferable to implementing a cobweb of polymorphic convolution in Java. I don't say this as a slight to explicit typing, only when coupled with a naive notion of inheritance or encapsulation is it dangerous, to say the least.
-
-
 #### How do you avoid using code as configuration space?
 
 Easy management of defaults and constants can be achieved by creating a yaml (or similar) resource file in a core directory of the service code. At the initialization of the service the config file is read and the constants can be programmatically tokenized and used where needed.
-
-#### How and when do you interface with file systems?
-
-In general, for live services the answer should be *never*, with certain exceptions for Extract Transform Load (ETL) runs. If it is unavoidable to use file system calls, wrap their use in a well-defined and tightly managed but general-use **object 2** style file system library. This should be a single-source plugin for anything running on (preferably) UNIX, and others for other OSs. File systems are chaotic and unpredictable so make sure to pepper this library with plenty of error handling and prepare for any and all worst-case scenarios on the hard drive.
-
-Outside of the limited ETLs that need file systems, consider alternatives like Mongo or SQL for long-term data stores. In-memory cache and/or messaging queues for short-term data stores.
-
-#### What is your take on Python?
-
-Python is a broadly purposed programming language with rich support in a plethora of paradigms. Most famously, it is the language of choice for data science, machine learning and other related analytical projects.
-
-There has been a surge in it's popularity as the most "agile" language to bootstrap just about any burgeoning platform recently. I genuinely believe this approach is unsustainable. Service software at considerable scale needs to be implemented in a statically-typed and compiled language, in much the same way that a large enough office building needs a room numbering blueprint on file, and rooms labeled with plaques made of brass, or hard plastic that are reveted into the walls by each door. As the scale of a python project grows, the abstraction of the stack grows at a pace that exceeds it's own time and space complexity. This means time spent reading and re-reading docs in order to accomplish simple changes because the blueprint of a typing system is not there, and the dynamic typing system makes no certainty what lies under the token. My recommendation is always to keep .py files under ~250 lines long and less than 10% of enterprise code base.
 
 #### How do you solve the two hard problems in computer science?
 
@@ -50,7 +33,6 @@ There has been a surge in it's popularity as the most "agile" language to bootst
       - tokens in a method from inheritance start point `class_token_a` or with specification as `project_class_token_a`
 
       - tokens in a function are modular nomers `module_token_a` or with specification as `project_module_token_a`
-
 
 #### Contact
 jonathan@coth.dev
