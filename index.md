@@ -12,7 +12,7 @@ I possess an innate understanding of data analysis, design patterns and process 
 
 ### Profile
 
-I was born and raised in Maryland, and I currently live with my wife and infant child in Baltimore. I completed my bachelor's degree at the University of Maryland, College Park in biological sciences in 2015. I initially worked in the biotechnology sector before making the move over to being a software developer late in 2019. My scientific background gave me a leg up in technical problem solving and a strong ability to grasp complex technical systems.
+I was born and raised in Maryland, and I currently live with my wife and son in Baltimore. I completed my bachelor's degree at the University of Maryland, College Park in biological sciences in 2015. I initially worked in the biotechnology sector before making the move over to being a software developer late in 2019. My scientific background gave me a leg up in technical problem solving and a strong ability to grasp complex technical systems.
 
 My first software engineering role gave me rigorous experience with Java, building an enterprise scale Natural Language Processing (NLP) system. I was also selected to a project to work with the machine learning team of the NLP platform, we created an integrated data analytics pipeline where I showcased my Python skills to create a critical connection between the TensorFlow cores and a web user interface.
 
