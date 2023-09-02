@@ -24,11 +24,28 @@ You only need at most three objects per service unit. If you think it's unavoida
 1. `$ rm -rf ./my_repo/my_cache/`
 
 2. Namespace like a file system, but recursively
-   - `project.project_module.project_module_class.project_module_class_operation`
 
-      - tokens in a method from inheritance start point `class_token_a` or with specification as `project_class_token_a`
-
-      - tokens in a function are modular nomers `module_token_a` or with specification as `project_module_token_a`
-
+   - functional namespace:
+      - Class methods
+         - `project.project_module.project_module_class.project_module_class_$operation`
+      - Module functions:
+         -  `project.project_module.project_module_$operation`
+      - some examples of $operation:
+         - query
+         - parse
+         - initiate
+         - obtain
+         - create
+         - complete
+         - connect
+         - append
+         - delete
+         - push
+         - contains
+   - field namespace:
+      -   `project.project_module.project_module_class.class_token_a`
+      -  disambiguated as  `project.project_module.project_module_class.project_class_token_a` OR `project.project_module.project_module_class.module_class_token_a`
+   - module token namespace:
+      -   `project.project_module.project_module_token_a`
 #### Contact
 jonathan@coth.dev
