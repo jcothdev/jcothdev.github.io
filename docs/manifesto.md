@@ -19,10 +19,6 @@ You only need at most three objects per service unit. If you think it's unavoida
 - **Polymorphic magic** - When the dependency chain is indeterminant at compile time, callable abstraction and conditionals are absolutely the grease in the wheels of your enterprise system. It is important however to never pre-optimize and use polymorphism out of the gate. This leads to the next point, but a well factored base in **object 2** can make refactoring or optimizing less of a headache.
 - **Write extensible code** - From day 0, one of the top goals of an experienced developer should be to write their code in a way that easily allows for extension and, as much as possible for deprecation and sun-setting.
 
-#### How do you avoid using code as configuration space?
-
-Easy management of defaults and constants can be achieved by creating a yaml (or similar) resource file in a core directory of the service code. At the initialization of the service the config file is read and the constants can be programmatically tokenized and used where needed.
-
 #### How do you solve the two hard problems in computer science?
 
 1. `$ rm -rf ./my_repo/my_cache/`
