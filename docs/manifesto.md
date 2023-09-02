@@ -48,7 +48,7 @@ You only need at most three objects per service unit. If you think it's unavoida
    - module token namespace:
       -   `project.project_module.project_module_token_a`
     
-#### Light mode, or dark mode?
+#### Light mode or dark mode?
 
 Light mode. This is actually a very interesting debate coming from a biology background. The retina cells in the eye are essentially modified neurons equipped with an action potential that feeds into the optic nerve. There are specialized proteins on the visual surface the retina cells that change its shape when exposed to certain wavelengths of light. Counterintuitively, when light is *not* hitting a retina cell, this protein is configured such that it opens the sodium/potassium channels of the optic synapses and causes rapid action potential firing. The exposure to light causes less neural activity in the optical nerve, meaning that less energy is being expended when your eyes are exposed to light. [source 1](https://www.ncbi.nlm.nih.gov/books/NBK10806), [source 2](https://en.wikipedia.org/wiki/Hyperpolarization_(biology))
 
