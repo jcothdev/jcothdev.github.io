@@ -47,5 +47,12 @@ You only need at most three objects per service unit. If you think it's unavoida
       -  disambiguated as  `project.project_module.project_module_class.project_class_token_a` OR `project.project_module.project_module_class.module_class_token_a`
    - module token namespace:
       -   `project.project_module.project_module_token_a`
+    
+#### Light mode, or dark mode?
+
+Light mode. This is actually a very interesting debate coming from a biology background. The reason I use light mode is because the cone and rod cells in your retina actually use less energy when exposed to more light. The retina cells are essentially modified neurons equipt with an action potential that feeds into the optic nerve. There are specalized proteins on the visual surface the retina cells that change it's shape when exposed to certain wavelengths of light. Counterintuitively, when light is *not* hitting a retina cell, this protein is configured such that it opens the sodium channels of the optic synapses and causes rapid action potential firing [[source 1](/https://www.ncbi.nlm.nih.gov/books/NBK10806/), [source 2](/https://en.wikipedia.org/wiki/Hyperpolarization_(biology))]. The exposure to light actually causes less nerual activity in the optical nerve, meaning that less energy is being expended when your eyes are exposed to light.
+
+This relates to the light mode vs dark mode debate because when developers are sitting at a screen, after many hours fatigue frequently sets in. A few months ago I remembered this fact about the retina and switched from dark to light mode. Since I have experienced less fatigue overall even after a full day of work simply by saving my nervous system from expending the extra energy it uses on dark mode! **Disclaimer**: This is anecdotal, and I am not a physician. This should not be taken as medical advice.
+
 #### Contact
 jonathan@coth.dev
