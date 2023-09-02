@@ -20,7 +20,7 @@ My current role as a contractor with the National Center for Biotechnology Infor
 
 Outside of work I am an avid outdoor person, I get out to hike, bike and camp with family and friends regularly. As well, I enjoy playing music on keyboard and expanding my vinyl record collection from music shops in Baltimore and beyond.
 
-Thank you for visiting my info page, feel free to learn more about my personal take on computer science and software topics in my "Software Manifesto" linked above. Please reach out to me with any questions, or feedback. My email and resume are linked below.
+Thank you for visiting my info page, feel free to learn more about my personal take on computer science and software topics in my [Software Manifesto](/docs/manifesto.md). Please reach out to me with any questions, or feedback. My email and resume are linked below.
 
 ## Links
 
