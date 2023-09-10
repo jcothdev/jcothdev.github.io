@@ -8,8 +8,8 @@ title: Software Manifesto
 #### What is your main guiding principle for service oriented code development?
 
 You only need at most three classes per service unit. If you think it's unavoidable to use that few an class, split off more service units of three classs each.
-1. **Endpoint Handler and Request Normalizer**: At the start of runtime the service opens **class 1** as a live listener to user/client requests. The service-span listener code should be implemented in **class 2**, so **class 1** should initialize these parameters at startup. Upon client interaction the request details are null-checked, and type normalization, ie. many-to-one or one-to-many cases are handled.
-2. **Central Shared Resource Instance**: The main connections for **class 3** are established here using configured connection details. Facilities for client normalization are also implemented here. In general, the line count of **class 2** implementable code should far outpace the other two.
+1. **Endpoint Handler and Request Normalizer**: At the start of runtime the service initializes **class 1** as a live listener to user/client requests. The service-span listener code should be implemented in **class 2**, so **class 1** should initialize these parameters at startup. Upon client interaction the request details are null-checked, and type normalization, ie. many-to-one or one-to-many cases are handled.
+2. **Central Shared Resource**: The main connections for **class 3** are established here using configured connection details. Facilities for client normalization are also implemented here. In general, the line count of **class 2** implementable code should far outpace the other two.
 3. **Backend/Query Connector**: Use the function space of **class 2** to pass request from **class 1** to query a read connection, or parse into a write connection. The appropriate response is wrapped from code in **class 2**, and returned from the endpoint in **class 1**.
 
 #### How do you organize the chaos of enterprise level code?
